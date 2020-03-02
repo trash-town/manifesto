@@ -10,3 +10,9 @@ body {
 }
 
 h1,h2,h3{line-height:1.2}
+
+code {
+    background-color: #082213;
+    color: #479654;
+    padding: 2px;
+}
