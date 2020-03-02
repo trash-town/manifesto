@@ -13,13 +13,13 @@ many tildes run as virtual instances on cloud services; trash.town will not. it 
 
 ### a statement on reuse
 
-e-waste is becoming more and more of a problem every day. trash.town will fight against the idea that a conputer’s life ends because of being outdated. a conputer can have life breathed into it if we are creative about our solutions.
+e-waste is becoming more and more of a problem every day. trash.town will fight against the idea that a computer’s life ends because of being outdated. a computer can have life breathed into it if we are creative about our solutions.
 
 ## goals and parameters
 
 ### reuse everything
 
-every component of the machine should be used. our goal is to show that a computer may not be the latest and greates, but can still exceed all expectations.
+every component of the machine should be used. our goal is to show that a computer may not be the latest and greatest, but can still exceed all expectations.
 
 ### keep costs low
 
