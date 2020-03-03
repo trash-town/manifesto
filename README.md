@@ -13,7 +13,7 @@ many tildes run as virtual instances on cloud services; trash.town will not. it 
 
 ### a statement on reuse
 
-e-waste is becoming more and more of a problem every day. trash.town will fight against the idea that a computer’s life ends because of being outdated. a computer can have life breathed into it if we are creative about our solutions.
+e-waste is becoming more and more of a problem every day. trash.town will fight against the idea that a computer's life ends because of being outdated. a computer can have life breathed into it if we are creative about our solutions.
 
 ## goals and parameters
 
@@ -45,4 +45,5 @@ contact `mallory AT archangelic (dot) space` with information on the part you ha
 ## get involved
 
 irc: #trashtown on freenode
-follow archangelic on mastodon: <a href="https://cybre.space/@archangelic">@archangelic@cybre.space</a>
+
+contact/follow archangelic on mastodon: [@archangelic@cybre.space](https://cybre.space/@archangelic)
