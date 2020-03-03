@@ -41,3 +41,8 @@ currently we need everything to do with a computer to get started. once we have 
 ### how to donate hardware
 
 contact `mallory AT archangelic (dot) space` with information on the part you have and we can coordinate shipping!
+
+## get involved
+
+irc: #trashtown on freenode
+follow archangelic on mastodon: <a href="https://cybre.space/@archangelic">@archangelic@cybre.space</a>
