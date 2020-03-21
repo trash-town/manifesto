@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" media="screen"
+                           href="https://fontlibrary.org/face/fantasque-sans-mono"
+                           type="text/css"/>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>trash.town - relax.reuse.reboot</title>
+  </head>
+  <body>
+    <center><img src="images/mascot.png" width=200/></center>
+    <h1>trash.town</h1>
+    <p><code>relax.reuse.reboot</code></p>
+    <nav>
+      <a href="index.html">home</a> <>
+      <a href="news.html">news</a> <>
+      <a href="signup.html">signup</a> <>
+      <a href="wiki/index.html">wiki</a>
+    </nav>
+    <h2>sign up</h2>
+    <p>trash.town is still being set up, but in the mean time, you can prepare for signups before
+    they
+    become available by doing a few things on this page</p>
+    <h2>requirements</h2>
+    <p>to prepare for signups, you will require the following:</p>
+    <ul>
+      <li>a unix-like operating system, such as, but not limited to:
+        <ul>
+          <li>ubuntu</li>
+          <li><a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">windows subsystem for linux</a></li>
+          <li>macOS</li>
+          <li><a href="https://scoop.sh/">scoop.sh</a></li>
+        </ul>
+      </li>
+      <li>SSH</li>
+    </ul>
+    <h2>preparing private and public ssh keys</h2>
+    <p>a public ssh key stays on a server or computer you want to remotely log into. it helps prove
+    who
+    is accesing the server. a private key is like a key to your home. this means you don't want
+    anyone
+    to have access to it or they can access your
+    stuff!<p>
+    <h3>to prepare private and public ssh keys</h3>
+    <ol>
+      <li>run <code>ssh-keygen -b 4096 -t rsa -f ~/.ssh/trash.town</code></li>
+      <li>press enter, if you don't require a password for access to the key</li>
+      <li>press enter again to confirm</li>
+    </ol>
+    <h2>what did that do?</h2>
+    <p>this generated two things:</p>
+    <ul>
+      <li>a <code>~/.ssh/trash.town</code> key, which is your <strong>private key</strong></li>
+      <li>a <code>~/.ssh/trash.town.pub</code> key, which is your <strong>public key</strong></li>
+    </ul>
+    <h2>what do i do with these keys?</h2>
+    <p>you will need to send the <strong>public key</strong> to trash.town admins, so the trash.town
+    ssh server can check if it is you when you ssh into trash.town</p>
+    <h2>how do i send the public key?</h2>
+    <p>try typing <code>cat ~/.ssh/trash.town.pub</code></p>
+    <p>a long list of letters and numbers will show up on
+    your terminal, this is the public key you will
+    need to send to the trash.town admins when signups
+    are open</p>
+    <h2>be careful!</h2>
+    <p>make sure you don't send your <code>trash.town</code> key (without the <code>.pub</code> at
+    the end), because this is your super secret private key</p>
+    <p>if the steps above didn't work for you, have a
+    look at
+    <a href="https://tilde.town/wiki/getting-started/ssh.html">tilde.town's guide</a>
+    or
+    <a href="https://cgi.tilde.town/users/keymachine">tilde.town's key generator</a></p>
+</html>
+

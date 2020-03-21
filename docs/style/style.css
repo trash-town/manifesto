@@ -1,18 +1,21 @@
 body {
-    background-color: #479654;
-    color: #082213;
-    font-family: 'FantasqueSansMonoRegular';
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.6;
-    font-size: 18px;
-    padding:0 10px
+  background-color: #479654;
+  color: #082213;
+  font-family: 'FantasqueSansMonoRegular';
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  padding:0 10px
 }
 
 h1,h2,h3{line-height:1.2}
 
+a{color:#082213;}
+
 code {
-    background-color: #082213;
-    color: #479654;
-    padding: 2px;
+  background-color: #082213;
+  color: #479654;
+  padding: 2px;
 }
+
